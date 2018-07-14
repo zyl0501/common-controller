@@ -16,4 +16,8 @@ public class MainActivity extends AppCompatActivity {
     public void clickStickFrame(View view) {
         startActivity(new Intent(this, StickFrameLayoutActivity.class));
     }
+
+    public void clickSwipeLayout(View view) {
+        startActivity(new Intent(this, SuggestTemplateActivity.class));
+    }
 }

@@ -18,6 +18,7 @@
             </intent-filter>
         </activity>
         <activity android:name=".StickFrameLayoutActivity"/>
+        <activity android:name=".SuggestTemplateActivity"/>
     </application>
 
 </manifest>

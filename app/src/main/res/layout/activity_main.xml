@@ -15,4 +15,11 @@
         android:text="Stick FrameLayout"
         />
 
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="clickSwipeLayout"
+        android:text="Swipe Layout"
+        />
+
 </LinearLayout>
