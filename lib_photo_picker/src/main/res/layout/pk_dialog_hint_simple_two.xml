@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="240.48dp"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:background="@drawable/pk_white_bg_radius_10"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/tv_title"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:gravity="center_vertical"
+            android:paddingLeft="15.36dp"
+            android:paddingRight="15.36dp"
+            android:text="@string/pk_hint_infomation"
+            android:textColor="@color/pk_color_ff_49d969"
+            android:textSize="15sp" />
+
+        <View
+            style="@style/pk_view_dash_line_margin_24px"
+            android:layout_height="1dp"
+            android:layout_marginLeft="15.36dp"
+            android:layout_marginRight="15.36dp"
+            android:background="@color/pk_color_ff_49d969" />
+
+
+        <TextView
+            android:id="@+id/tv_info"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="11.52dp"
+            android:layout_marginTop="11.52dp"
+            android:gravity="center_vertical"
+            android:paddingLeft="15.36dp"
+            android:paddingRight="15.36dp"
+            android:textColor="@color/pk_text_body_color_666"
+            android:textSize="15sp" />
+
+
+        <View
+            style="@style/pk_view_dash_line_margin_24px"
+            android:layout_height="1px"
+            android:layout_marginLeft="15.36dp"
+            android:layout_marginRight="15.36dp"
+            android:background="@color/pk_color_ff_e4e4e4" />
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:layout_marginLeft="15.36dp"
+            android:layout_marginRight="15.36dp"
+            android:orientation="horizontal">
+
+            <!--取消-->
+            <TextView
+                android:id="@+id/tv_cancel"
+                android:layout_width="0dp"
+                android:layout_height="48dp"
+                android:layout_marginRight="5dp"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="@string/pk_cancel"
+                android:textColor="@color/pk_text_blue_color"
+                android:textSize="15sp" />
+
+            <View
+                android:layout_width="1px"
+                android:layout_height="28.8dp"
+                android:layout_gravity="center"
+                android:background="@color/pk_dash_line_bg" />
+
+            <!--确定-->
+            <TextView
+                android:id="@+id/tv_confirm"
+                android:layout_width="0dp"
+                android:layout_height="48dp"
+                android:layout_marginLeft="5dp"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="@string/pk_confirm"
+                android:textColor="@color/pk_text_blue_color"
+                android:textSize="15sp" />
+        </LinearLayout>
+    </LinearLayout>
+</RelativeLayout>

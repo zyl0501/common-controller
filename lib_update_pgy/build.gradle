@@ -1,0 +1,56 @@
+apply plugin: 'com.android.library'
+
+android {
+    compileSdkVersion rootProject.ext.android.compileSdkVersion
+    buildToolsVersion rootProject.ext.android.buildToolsVersion
+
+    defaultConfig {
+        minSdkVersion rootProject.ext.android.minSdkVersion
+        targetSdkVersion rootProject.ext.android.targetSdkVersion
+        versionCode 1
+        versionName "1.0"
+
+        testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
+
+    }
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+}
+
+dependencies {
+    compile fileTree(include: ['*.jar'], dir: 'libs')
+    androidTestCompile('com.android.support.test.espresso:espresso-core:2.2.2', {
+        exclude group: 'com.android.support', module: 'support-annotations'
+    })
+    testCompile 'junit:junit:4.12'
+
+    compile 'com.pgyersdk:sdk:2.8.1'
+    compile 'com.tomtaw.library:lib_dialogs:' + rootProject.ext.lib_version.dialogsVersion
+    compile 'com.yanzhenjie:permission:1.0.8'
+}
+
+ext {
+    maven = [
+            version       : rootProject.ext.lib_version.updatePgyVersion,
+            group         : "com.tomtaw.library",
+            siteUrl       : '',
+            gitUrl        : '',
+
+            // project
+            packaging     : 'aar',
+            name          : 'PgyUpdate',
+            description   : '',
+
+            // bintray
+            bintrayName   : "update_pgy",
+            bintrayRepo   : "library",
+            bintrayOrg    : 'tomtaw',
+            bintrayLicense: 'Apache-2.0',
+
+    ]
+}
+apply from: '../maven.gradle'

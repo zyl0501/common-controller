@@ -1,0 +1,57 @@
+apply plugin: 'com.android.library'
+
+android {
+    compileSdkVersion rootProject.ext.android.compileSdkVersion
+    buildToolsVersion rootProject.ext.android.buildToolsVersion
+
+    defaultConfig {
+        minSdkVersion rootProject.ext.android.minSdkVersion
+        targetSdkVersion rootProject.ext.android.targetSdkVersion
+        versionCode 1
+        versionName "1.0"
+    }
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+
+    lintOptions{
+        checkReleaseBuilds false
+        abortOnError false
+    }
+}
+
+dependencies {
+    compile fileTree(dir: 'libs', include: ['*.jar'])
+    testCompile 'junit:junit:4.12'
+    compile ('com.github.chrisbanes.photoview:library:1.2.4', {
+        exclude group: 'com.android.support'
+    })
+    compile 'com.android.support:appcompat-v7:' + rootProject.ext.lib_version.supportLibVersion
+    provided 'com.android.support:recyclerview-v7:'+ rootProject.ext.lib_version.supportLibVersion
+    provided 'com.github.bumptech.glide:glide:' + rootProject.ext.lib_version.glideVersion
+}
+
+ext {
+    maven = [
+            version       : rootProject.ext.lib_version.photoPickerVersion,
+            group         : "com.tomtaw.library",
+            siteUrl       : '',
+            gitUrl        : '',
+
+            // project
+            packaging     : 'aar',
+            name          : 'Badge',
+            description   : '',
+
+            // bintray
+            bintrayName   : "photo_picker",
+            bintrayRepo   : "library",
+            bintrayOrg    : 'tomtaw',
+            bintrayLicense: 'Apache-2.0',
+
+    ]
+}
+apply from: '../maven.gradle'

@@ -1,0 +1,48 @@
+apply plugin: 'com.android.library'
+
+android {
+    compileSdkVersion rootProject.ext.android.compileSdkVersion
+    buildToolsVersion rootProject.ext.android.buildToolsVersion
+
+    defaultConfig {
+        minSdkVersion rootProject.ext.android.minSdkVersion
+        targetSdkVersion rootProject.ext.android.targetSdkVersion
+        versionCode 1
+        versionName "1.0"
+    }
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+    productFlavors {
+    }
+}
+
+dependencies {
+    compile fileTree(include: ['*.jar'], dir: 'libs')
+    testCompile 'junit:junit:4.12'
+}
+
+ext {
+    maven = [
+            version       : rootProject.ext.lib_version.ratingTerminatorVersion,
+            group         : "com.tomtaw.widget",
+            siteUrl       : '',
+            gitUrl        : '',
+
+            // project
+            packaging     : 'aar',
+            name          : 'rating_terminator',
+            description   : '',
+
+            // bintray
+            bintrayName   : "rating_terminator",
+            bintrayRepo   : "widget",
+            bintrayOrg    : 'tomtaw',
+            bintrayLicense: 'Apache-2.0',
+
+    ]
+}
+apply from: '../maven.gradle'

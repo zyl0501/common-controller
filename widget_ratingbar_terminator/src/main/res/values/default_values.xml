@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="default_starImageSize">22dp</dimen>
+    <dimen name="default_starImageWidth">22dp</dimen>
+    <dimen name="default_starImageHeight">22dp</dimen>
+    <dimen name="default_starImagePadding">14dp</dimen>
+    <integer name="default_numStars">5</integer>
+</resources>

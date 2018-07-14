@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="capture_preview" type="id">false</item>
+    <item name="common_image_picker_detail_grid_view" type="id">true</item>
+
+</resources>

@@ -1,0 +1,4 @@
+include ':app', ':autoupdatesdk-release', ':lib_update_bd', ':widget_piechart', ':widget_mpchart', ':widget_convenient_banner', ':widget_pickerview'
+include ':common'
+include ':widget_circle_imageview',':widget_double_page',':widget_empty_view',':widget_flowlayout',':widget_multi_swipe_refresh_layout',':widget_ratingbar_terminator',':widget_ratio_image',':widget_right_indexbar',':widget_stick_framelayout',':widget_suggest_template_layout',':widget_tab_layout',':widget_tab_switch_layout',':widget_toggle_button',':widget_viewpager_indicator'
+include ':lib_audio',':lib_badge',':lib_dialogs',':lib_image_loader',':lib_image_preview',':lib_location',':lib_photo_picker',':lib_qrcode',':lib_third_party', ':lib_update_pgy'

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/dialog_message"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center_vertical|left"
+    android:gravity="center_vertical|left"
+    android:lineSpacingMultiplier="1.5"
+    android:maxLines="12"
+    android:minHeight="70dp"
+    android:paddingBottom="10.0dip"
+    android:paddingEnd="@dimen/dialog_padding_right"
+    android:paddingLeft="@dimen/dialog_padding_left"
+    android:paddingRight="@dimen/dialog_padding_right"
+    android:paddingStart="@dimen/dialog_padding_left"
+    android:paddingTop="10.0dip"
+    android:scrollbars="vertical"
+    android:textColor="#666666"
+    android:textSize="20sp"/>

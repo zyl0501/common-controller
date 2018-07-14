@@ -1,0 +1,8 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="dialog_btn_height">44dp</dimen>
+    <dimen name="dialog_divider">1px</dimen>
+    <dimen name="dialog_radius">3.3dp</dimen>
+    <dimen name="dialog_padding_left">16dp</dimen>
+    <dimen name="dialog_padding_right">16dp</dimen>
+</resources>

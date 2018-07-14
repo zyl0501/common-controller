@@ -1,0 +1,16 @@
+<resources tools:ignore="MissingTranslation" xmlns:tools="http://schemas.android.com/tools">
+
+    <string name="empty_return_to_prepage">返回到上一页</string>
+    <string name="empty_reload">重新加载</string>
+    <string name="empty_request_loading">请求中…</string>
+    <string name="empty_wait">请稍后</string>
+    <string name="empty_default_loading_msg">正在加载</string>
+
+    <string name="empty_common_no_data_1">您还没有%1$s哦</string>
+    <string name="empty_common_no_data_2">暂无内容</string>
+    <string name="empty_common_to_do">还不赶快行动</string>
+    <string name="empty_common_overtime">加载超时啦</string>
+    <string name="empty_common_urlinvalid">连接服务器失败啦</string>
+    <string name="empty_common_network_weak">网络不给力</string>
+    <string name="empty_please_expect">敬请期待</string>
+</resources>

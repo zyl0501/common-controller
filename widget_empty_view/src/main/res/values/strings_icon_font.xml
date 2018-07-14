@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools" tools:ignore="MissingTranslation">
+    <!--<string name="icon_font_overtime">&#xe665;</string>-->
+    <!--<string name="icon_font_search">&#xe615;</string>-->
+    <!--<string name="icon_font_avatar">&#xe60d;</string>-->
+    <!--<string name="icon_font_gift">&#xe647;</string>-->
+    <!--<string name="icon_font_no_data">&#xe667;</string>-->
+
+    <string name="empty_icon_font_clear">&#xe600;</string>
+    <string name="empty_icon_font_love">&#xe601;</string>
+    <string name="empty_icon_font_happy">&#xe602;</string>
+    <string name="empty_icon_font_lock">&#xe603;</string>
+    <string name="empty_icon_font_qr_code">&#xe604;</string>
+    <string name="empty_icon_font_toolbox">&#xe605;</string>
+    <string name="empty_icon_font_user_add">&#xe606;</string>
+    <string name="empty_icon_font_plus">&#xe607;</string>
+    <string name="empty_icon_font_right_arrow">&#xe608;</string>
+    <string name="empty_icon_font_right_down">&#xe654;</string>
+    <!--检验信息-->
+    <string name="empty_icon_font_test">&#xe609;</string>
+    <!--健康宣教-->
+    <string name="empty_icon_font_edu">&#xe60a;</string>
+    <string name="empty_icon_font_notify">&#xe60b;</string>
+    <string name="empty_icon_font_customer_service">&#xe60c;</string>
+    <string name="empty_icon_font_avatar">&#xe60d;</string>
+    <string name="empty_icon_font_money">&#xe60e;</string>
+    <string name="empty_icon_font_sign">&#xe60f;</string>
+    <string name="empty_icon_font_honor">&#xe610;</string>
+    <string name="empty_icon_font_scan">&#xe611;</string>
+    <string name="empty_icon_font_setting">&#xe612;</string>
+    <string name="empty_icon_font_home">&#xe613;</string>
+    <string name="empty_icon_font_transform">&#xe614;</string>
+    <string name="empty_icon_font_search">&#xe615;</string>
+    <string name="empty_icon_font_address_book">&#xe616;</string>
+    <string name="empty_icon_font_logout">&#xe617;</string>
+    <string name="empty_icon_font_auth">&#xe618;</string>
+    <string name="empty_icon_font_sorry">&#xe619;</string>    <!--愁眉苦脸的头像-->
+    <string name="empty_icon_font_alarm">&#xe61a;</string>
+    <string name="empty_icon_font_mail">&#xe61b;</string>
+    <string name="empty_icon_font_star">&#xe61c;</string>
+    <string name="empty_icon_font_eye">&#xe61d;</string>
+    <string name="empty_icon_font_user">&#xe61e;</string>
+    <!--中西药品-->
+    <string name="empty_icon_font_drug">&#xe61f;</string>
+    <string name="empty_icon_font_left_arrow">&#xe624;</string>
+    <string name="empty_icon_font_select">&#xe622;</string>
+    <string name="empty_icon_font_unselect">&#xe623;</string>
+    <string name="empty_icon_font_help">&#xe625;</string>
+    <string name="empty_icon_font_edit_patient">&#xe62b;</string>
+    <string name="empty_icon_arrow_right">&#xe621;</string>
+    <string name="empty_icon_font_pencil">&#xe62a;</string>
+    <string name="empty_icon_font_telephone">&#xe62f;</string>
+    <string name="empty_icon_font_again">&#xe62e;</string>
+    <string name="empty_icon_font_attach">&#xe62d;</string>
+    <string name="empty_icon_font_share">&#xe62c;</string>
+    <string name="empty_icon_font_attestation_add">&#xe631;</string>
+    <string name="empty_icon_font_download">&#xe632;</string>
+    <string name="empty_icon_font_day">&#xe633;</string>
+    <string name="empty_icon_font_week">&#xe634;</string>
+    <string name="empty_icon_font_month">&#xe635;</string>
+    <string name="empty_icon_font_call">&#xe636;</string>
+    <string name="empty_icon_font_delete">&#xe620;</string>
+    <string name="empty_icon_font_trigon_up">&#xe63f;</string>
+    <string name="empty_icon_font_trigon_right">&#xe63e;</string>
+    <string name="empty_icon_font_trigon_down">&#xe63d;</string>
+    <string name="empty_icon_font_hospital_search">&#xe640;</string>
+    <string name="empty_icon_font_close">&#xe63c;</string>
+    <string name="empty_icon_font_category">&#xe638;</string>
+    <string name="empty_icon_font_special_dept">&#xe639;</string>
+    <string name="empty_icon_font_famous_doctor">&#xe63a;</string>
+    <string name="empty_icon_font_special_service">&#xe63b;</string>
+    <string name="empty_icon_font_call_full">&#xe641;</string>
+    <string name="empty_icon_font_location">&#xe642;</string>
+    <string name="empty_icon_font_fork">&#xe645;</string>
+    <string name="empty_icon_font_right">&#xe646;</string>
+    <string name="empty_icon_font_label">&#xe644;</string>
+    <string name="empty_icon_font_little_icon">&#xe643;</string>
+    <string name="empty_icon_font_gift">&#xe647;</string>
+    <!--短信-->
+    <string name="empty_icon_font_sms">&#xe64b;</string>
+    <string name="empty_icon_font_wechat_full">&#xe64c;</string>
+    <string name="empty_icon_font_wechat_line">&#xe64d;</string>
+    <string name="empty_icon_font_trip">&#xe64e;</string>
+    <string name="empty_icon_font_sms_round">&#xe655;</string>
+    <!--照片-->
+    <string name="empty_icon_font_album">&#xe653;</string>
+    <!--拍摄-->
+    <string name="empty_icon_font_camera_full">&#xe652;</string>
+    <!--键盘-->
+    <string name="empty_icon_font_keybord">&#xe650;</string>
+    <!--语音-->
+    <string name="empty_icon_font_voice">&#xe651;</string>
+    <!--加-->
+    <string name="empty_icon_font_tools_more">&#xe64a;</string>
+    <!--笑脸-->
+    <string name="empty_icon_font_smile">&#xe64f;</string>
+    <!--箭头向下-->
+    <string name="empty_icon_font_arrow_down">&#xe654;</string>
+    <string name="empty_icon_font_pic">&#xe643;</string>
+    <string name="empty_icon_font_record">&#xe657;</string>
+    <string name="empty_icon_font_record_2">&#xe666;</string>
+    <string name="empty_icon_font_no_data">&#xe667;</string>
+    <string name="empty_icon_font_camera">&#xe658;</string>
+    <!-- 圆 -->
+    <string name="empty_icon_font_round">&#xe65b;</string>
+    <string name="empty_icon_font_arrow_long_right">&#xe659;</string>
+    <string name="empty_icon_font_gzh_submenu">&#xe66a;</string>
+    <string name="empty_icon_font_gzh_up">&#xe65f;</string>
+    <string name="empty_icon_font_gzh_down">&#xe660;</string>
+    <string name="empty_icon_font_warning">&#xe65e;</string>
+    <!--攻略-->
+    <string name="empty_icon_font_strategy">&#xe661;</string>
+    <!--摇钱树-->
+    <string name="empty_icon_font_money_tree">&#xe65d;</string>
+    <!--输入删除-->
+    <string name="empty_icon_font_input_delete">&#xe662;</string>
+    <!--右箭头-->
+    <string name="empty_icon_font_arrow_right">&#xe663;</string>
+    <string name="empty_icon_font_overtime">&#xe665;</string>
+    <string name="empty_icon_font_warn_line">&#xe679;</string>
+</resources>

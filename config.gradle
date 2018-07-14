@@ -1,0 +1,74 @@
+ext {
+    plugins = [
+            application: 'com.android.application',
+            library    : 'com.android.library',
+            maven      : 'com.github.dcendents.android-maven',
+            bintray    : 'com.jfrog.bintray'
+    ]
+
+    android = [
+            compileSdkVersion: 25,
+            minSdkVersion    : 15,
+            targetSdkVersion : 25,
+            buildToolsVersion: "25.0.2"
+    ]
+    lib_version = [
+            supportLibVersion               : "25.1.0",
+            butterknifeVersion              : "8.5.1",
+            retrofitVersion                 : "2.1.0",
+            constraintVersion               : "1.0.2",
+            glideVersion                    : "3.7.0",
+            guavaVersion                    : "23.5-android",
+            greenDaoVersion                 : "3.1.0",
+            eventbusVersion                 : "3.0.0",
+            gsonVersion                     : "2.8.1",
+            //rx
+            rxjava                          : "1.2.0",
+            rxandroid                       : "1.2.1",
+
+            commonVersion                   : '1.0.29',
+            audioVersion                    : "1.0.2",
+            badgeVersion                    : "1.0.2",
+            dialogsVersion                  : '1.0.7',
+            imageLoaderVersion              : '1.0.2',
+            imagePreviewVersion             : '1.0.2',
+            locationVersion                 : '1.0.2',
+            photoPickerVersion              : '1.0.1',
+            qrCodeVersion                   : '1.0.2',
+            thirdPartyVersion               : '1.0.9',
+            updateBdVersion                 : '1.0.6',
+            updatePgyVersion                : '1.0.7',
+
+            circleImageVersion              : '1.0.3',
+            convernientBannerVersion        : '1.0.2',
+            doublePageVersion               : '1.0.2',
+            emptyViewVersion                : '1.0.2',
+            flowLayoutVersion               : '1.0.2',
+            mpChartVersion                  : '1.0.2',
+            multiSwipeLayoutVersion         : '1.0.1',
+            pickViewVersion                 : '1.0.3',
+            pieChartVersion                 : '1.0.1',
+            ratingTerminatorVersion         : '1.0.2',
+            ratioImageVersion               : '1.0.1',
+            rightIndexBarVersion            : '1.0.2',
+            suggestTemplateLayoutVersion    : '1.0.1',
+            stickFrameLayoutVersion         : '1.0.1',
+            tabLayoutVersion                : '1.0.2',
+            tabSwitchLayoutVersion          : '1.0.1',
+            toggleButtonVersion             : '1.0.1',
+            viewpagerIndicatorVersion       : '1.0.11',
+
+            //router
+            routerVersion                   : "1.0.3",
+            routerRxVersion                 : "1.0.2",
+            routerAnnotationVersion         : "1.0.3",
+            routerAnnotationProcessorVersion: "1.0.3",
+
+            //测试
+            runnerVersion                   : "0.5",
+            espressoVersion                 : "2.2.2",
+            rulesVersion                    : "0.5",
+            junitVersion                    : "4.12",
+    ]
+
+}

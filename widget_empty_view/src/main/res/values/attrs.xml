@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="EmptyView">
+        <attr name="showMsg" format="boolean"/>
+        <attr name="showMainBtn" format="boolean"/>
+        <attr name="emptyTitle" format="string"/>
+        <attr name="emptyMessage" format="string"/>
+        <attr name="emptyMainBtnText" format="string"/>
+        <attr name="loadingRes" format="reference" />
+    </declare-styleable>
+
+</resources>

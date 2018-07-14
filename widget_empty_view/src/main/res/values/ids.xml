@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- 加载中 -->
+    <item name="loadingView" type="id" />
+    <!-- 空数据 -->
+    <item name="emptyView" type="id" />
+    <!-- 空数据 icon -->
+    <item name="emptyView_icon" type="id" />
+    <!-- 空数据 title -->
+    <item name="emptyView_title" type="id" />
+    <!-- 空数据 message -->
+    <item name="emptyView_message" type="id" />
+    <!-- 空数据 主按钮 -->
+    <item name="emptyView_btn_main" type="id" />
+    <!-- 覆盖在上面的view -->
+    <item name="aboveView" type="id" />
+    <!-- 关闭按钮 -->
+    <item name="closeBtn" type="id" />
+</resources>

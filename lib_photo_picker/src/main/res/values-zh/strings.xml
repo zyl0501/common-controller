@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="pk_all_images">全部图片</string>
+    <string name="pk_folder_image_count">共%1$d张</string>
+    <string name="pk_preview_image_count">%1$s/%2$s</string>
+    <string name="pk_select_limit">最多选择%1$s张图片</string>
+    <string name="pk_complete">完成</string>
+    <string name="pk_select_complete">完成(%1$s/%2$s)</string>
+    <string name="pk_preview_count">预览(%1$s)</string>
+    <string name="pk_photo_crop">图片裁剪</string>
+    <string name="pk_origin">原图</string>
+    <string name="pk_origin_size">原图(%1$s)</string>
+    <string name="pk_choose">选择</string>
+    <string name="pk_choose_pic">选择图片</string>
+    <string name="pk_taking_pictures">拍摄照片</string>
+    <string name="pk_hint_infomation">信息提示</string>
+    <string name="pk_confirm">确定</string>
+    <string name="pk_cancel">取消</string>
+</resources>

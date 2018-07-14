@@ -1,0 +1,8 @@
+<resources>
+    <string name="errcode_success">授权成功</string>
+    <string name="errcode_cancel">已取消</string>
+    <string name="errcode_deny">授权被拒绝</string>
+    <string name="errcode_unsupported">不支持的错误</string>
+    <string name="errcode_unknown">未知错误</string>
+    <string name="err_register">调用微信登录失败：注册失败</string>
+</resources>

@@ -1,0 +1,51 @@
+apply plugin: 'com.android.library'
+
+android {
+    compileSdkVersion rootProject.ext.android.compileSdkVersion
+    buildToolsVersion rootProject.ext.android.buildToolsVersion
+
+    defaultConfig {
+        minSdkVersion rootProject.ext.android.minSdkVersion
+        targetSdkVersion rootProject.ext.android.targetSdkVersion
+        versionCode 1
+        versionName "1.0"
+    }
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+}
+
+dependencies {
+    compile fileTree(dir: 'libs', include: ['*.jar'])
+    testCompile 'junit:junit:4.12'
+    compile 'com.android.support:design:'+ rootProject.ext.lib_version.supportLibVersion
+    compile 'com.readystatesoftware.systembartint:systembartint:1.0.3'
+    compile 'com.afollestad.material-dialogs:core:0.9.0.1'
+    compile 'com.nineoldandroids:library:2.4.0'
+    compile 'com.nostra13.universalimageloader:universal-image-loader:1.9.5'
+}
+
+ext {
+    maven = [
+            version       : rootProject.ext.lib_version.qrCodeVersion,
+            group         : "com.tomtaw.library",
+            siteUrl       : '',
+            gitUrl        : '',
+
+            // project
+            packaging     : 'aar',
+            name          : 'QRCode',
+            description   : '',
+
+            // bintray
+            bintrayName   : "qrcode",
+            bintrayRepo   : "library",
+            bintrayOrg    : 'tomtaw',
+            bintrayLicense: 'Apache-2.0',
+
+    ]
+}
+apply from: '../maven.gradle'

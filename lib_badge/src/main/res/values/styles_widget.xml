@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="BadgeLayout">
+        <attr name="numberLayout" format="reference"/>
+        <attr name="dotLayout" format="reference"/>
+        <attr name="contentRefId" format="reference"/>
+        <attr name="overH" format="dimension"/>
+        <attr name="overV" format="dimension"/>
+    </declare-styleable>
+</resources>

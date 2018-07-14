@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    android:gravity="center"
+    android:background="@color/empty_b_background"
+    android:orientation="vertical">
+
+    <FrameLayout
+        android:id="@+id/iconImgLayout"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:background="@drawable/empty_bg_circle_gary_dc">
+
+        <com.ray.empty_view.FontIcon
+            android:id="@+id/iconImg"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:textColor="@android:color/white"
+            android:textSize="30dp" />
+    </FrameLayout>
+
+    <TextView
+        android:id="@id/emptyView_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="25dp"
+        android:gravity="center"
+        android:text="@string/empty_common_no_data_1"
+        android:textColor="#999"
+        android:textSize="16dp" />
+
+    <TextView
+        android:id="@id/emptyView_message"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="10dp"
+        android:ellipsize="end"
+        android:gravity="center"
+        android:maxLines="2"
+        android:maxWidth="240dp"
+        android:text="@string/empty_common_no_data_1"
+        android:textColor="#999"
+        android:textSize="14dp" />
+
+    <Button
+        android:id="@id/emptyView_btn_main"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="15dp"
+        android:background="@drawable/empty_round_25_rect_green_border"
+        android:gravity="center"
+        android:minHeight="38dp"
+        android:minWidth="105dp"
+        android:paddingBottom="10dp"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        android:paddingTop="10dp"
+        android:text="@string/empty_reload"
+        android:textColor="@color/empty_green_secondary"
+        android:textSize="16sp" />
+
+</LinearLayout>

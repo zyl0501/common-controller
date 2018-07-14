@@ -1,0 +1,20 @@
+<resources>
+    <string name="btn_history">History</string>
+    <string name="btn_picture">Picture</string>
+    <string name="btn_light">Light</string>
+    <string name="btn_ok">Ok</string>
+    <string name="qrcode">QR Code</string>
+    <string name="barcode">Barcode</string>
+    <string name="tips_open_camera_error">Failed to open camera, please ensure the permission is allowed and try again</string>
+    <string name="tips_decode_null">No data resolved</string>
+
+    <string name="title_image_picker">local photo</string>
+    <string name="title_warning">Warn</string>
+
+    <string name="common_loading_message">Loading...</string>
+    <string name="common_empty_msg">Oops, failed to resolve data\nPlease hit the screen and try again~</string>
+    <string name="common_error_msg">Oops, something wrong!\nPlease hit the screen and try again~</string>
+    <string name="common_no_network_msg">No network connected!\nPlease hit the screen and try again after connecting~</string>
+    <string name="qr_scan_warn">请将图片对准扫描框</string>
+    <string name="qrcode_request_url">访问该网址</string>
+</resources>

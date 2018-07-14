@@ -1,0 +1,14 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+
+    package="com.tomtaw.imagepreview">
+
+    <application
+        android:allowBackup="true"
+        android:supportsRtl="true">
+
+        <activity
+            android:name=".ImagePreviewActivity"
+            android:label="图片" />
+    </application>
+
+</manifest>

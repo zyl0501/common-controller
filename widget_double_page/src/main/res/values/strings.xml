@@ -1,0 +1,3 @@
+<resources >
+    <string name="doublepage_Behavior" translatable="false" >com.ysnows.page.PageBehavior</string >
+</resources >

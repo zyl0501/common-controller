@@ -1,0 +1,49 @@
+apply plugin: 'com.android.library'
+
+// 这个version是区分library版本的，因此当我们需要更新library时记得修改这个version
+version = "2.0.8"
+android {
+    compileSdkVersion rootProject.ext.android.compileSdkVersion
+    buildToolsVersion rootProject.ext.android.buildToolsVersion
+
+    defaultConfig {
+        minSdkVersion rootProject.ext.android.minSdkVersion
+        targetSdkVersion rootProject.ext.android.targetSdkVersion
+        versionCode 208
+        versionName version
+    }
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+}
+
+dependencies {
+    compile fileTree(dir: 'libs', include: ['*.jar'])
+    compile 'com.android.support:appcompat-v7:' + rootProject.ext.lib_version.supportLibVersion
+    compile 'com.android.support:design:' + rootProject.ext.lib_version.supportLibVersion
+}
+
+ext {
+    maven = [
+            version       : rootProject.ext.lib_version.tabLayoutVersion,
+            group         : "com.tomtaw.widget",
+            siteUrl       : '',
+            gitUrl        : '',
+
+            // project
+            packaging     : 'aar',
+            name          : 'Tab Layout',
+            description   : '',
+
+            // bintray
+            bintrayName   : "tab_layout",
+            bintrayRepo   : "widget",
+            bintrayOrg    : 'tomtaw',
+            bintrayLicense: 'Apache-2.0',
+
+    ]
+}
+apply from: '../maven.gradle'

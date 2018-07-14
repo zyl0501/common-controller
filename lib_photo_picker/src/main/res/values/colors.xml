@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="pk_theme_body">#cc22292c</color>
+    <color name="pk_black">#000000</color>
+    <color name="pk_status_bar">#303135</color>
+    <color name="pk_top_bar">#9f556061</color>
+    <color name="pk_transparent">#00000000</color>
+    <color name="pk_white">#FFFFFFFF</color>
+    <color name="pk_color_ff_49d969">#ff49d969</color>
+    <color name="pk_color_ff_e4e4e4">#e4e4e4</color>
+    <color name="pk_text_blue_color">#00a2ff</color>
+    <color name="pk_dash_line_bg">#FFe2e2e2</color>
+    <color name="pk_text_body_color_666">#FF666666</color>
+</resources>

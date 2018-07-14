@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<declare-styleable name="wtb_ToggleButton">
+		<attr name="wtb_borderWidth" format="dimension">
+		</attr>
+		<attr name="wtb_offBorderColor" format="reference|color">
+		</attr>
+		<attr name="wtb_offColor" format="reference|color">
+		</attr>
+		<attr name="wtb_onColor" format="reference|color">
+		</attr>
+		<attr name="wtb_spotColor" format="reference|color">
+		</attr>
+		<attr name="wtb_animate" format="reference|boolean">
+		</attr>
+		<attr name="wtb_isDefaultOn" format="reference|boolean">
+		</attr>
+	</declare-styleable>
+</resources>
