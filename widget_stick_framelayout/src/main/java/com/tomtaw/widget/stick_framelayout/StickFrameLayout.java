@@ -244,7 +244,11 @@ public class StickFrameLayout extends FrameLayout {
      * @param resId
      */
     public void setStickRes(int resId) {
+        if (headerStickView != null) {
+            removeView(headerStickView);
+        }
         headerStickView = LayoutInflater.from(getContext()).inflate(resId, this, false);
+        headerStickView.setVisibility(GONE);
         addView(headerStickView);
     }
 
